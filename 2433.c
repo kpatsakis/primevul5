@@ -1,0 +1,1 @@
+  explicit MapSizeOp(OpKernelConstruction* ctx) : OpKernel(ctx) {}

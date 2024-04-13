@@ -1,0 +1,1 @@
+  int getHeight() { return h; }

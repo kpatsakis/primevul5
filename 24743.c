@@ -1,0 +1,1 @@
+  void set_modify_item(bool to) { m_modify_item= to; }

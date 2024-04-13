@@ -1,0 +1,1 @@
+  Item_copy_timestamp(THD *thd, Item *arg): Item_copy(thd, arg) { }

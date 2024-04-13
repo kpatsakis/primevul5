@@ -1,0 +1,1 @@
+int    my_aio_write (      struct aiocb *aiocbp){return(aio_write (aiocbp));}

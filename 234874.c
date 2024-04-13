@@ -1,0 +1,1 @@
+  bool basic_const_item() const { return ref && (*ref)->basic_const_item(); }

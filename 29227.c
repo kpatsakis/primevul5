@@ -1,0 +1,1 @@
+  Guint getSize() { return size; }

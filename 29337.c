@@ -1,0 +1,2 @@
+SplashFTFont::~SplashFTFont() {
+}

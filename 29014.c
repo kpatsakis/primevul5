@@ -1,0 +1,2 @@
+GfxColorSpace::GfxColorSpace() {
+}

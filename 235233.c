@@ -1,0 +1,1 @@
+  virtual String *val_json(String *str) { return val_str(str); }

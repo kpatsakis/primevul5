@@ -1,0 +1,1 @@
+  bool is_null() const { return m_type == DYN_COL_NULL; }

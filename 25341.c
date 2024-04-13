@@ -1,0 +1,1 @@
+  virtual const longlong *const_ptr_longlong() const { return NULL; }

@@ -1,0 +1,1 @@
+  bool with_subquery() const { DBUG_ASSERT(fixed); return m_with_subquery; }

@@ -1,0 +1,1 @@
+    Subscriber(void *user) : user(user) {}

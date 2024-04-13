@@ -1,0 +1,1 @@
+  explicit MapClearOp(OpKernelConstruction* ctx) : OpKernel(ctx) {}

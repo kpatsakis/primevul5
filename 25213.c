@@ -1,0 +1,1 @@
+  virtual ~Sp_rcontext_handler() {}

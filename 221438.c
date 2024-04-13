@@ -1,0 +1,18 @@
+
+static bool io_register_op_must_quiesce(int op)
+{
+	switch (op) {
+	case IORING_REGISTER_BUFFERS:
+	case IORING_UNREGISTER_BUFFERS:
+	case IORING_REGISTER_FILES:
+	case IORING_UNREGISTER_FILES:
+	case IORING_REGISTER_FILES_UPDATE:
+	case IORING_REGISTER_PROBE:
+	case IORING_REGISTER_PERSONALITY:
+	case IORING_UNREGISTER_PERSONALITY:
+	case IORING_REGISTER_RSRC:
+	case IORING_REGISTER_RSRC_UPDATE:
+		return false;
+	default:
+		return true;
+	}

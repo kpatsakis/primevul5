@@ -1,0 +1,1 @@
+  virtual bool allocate(THD *thd, uint i) { return 0; }

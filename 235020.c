@@ -1,0 +1,1 @@
+  bool is_expensive() { return orig_item->is_expensive(); }

@@ -1,0 +1,17 @@
+ExpressionDateFromString::ExpressionDateFromString(ExpressionContext* const expCtx,
+                                                   intrusive_ptr<Expression> dateString,
+                                                   intrusive_ptr<Expression> timeZone,
+                                                   intrusive_ptr<Expression> format,
+                                                   intrusive_ptr<Expression> onNull,
+                                                   intrusive_ptr<Expression> onError)
+    : Expression(expCtx,
+                 {std::move(dateString),
+                  std::move(timeZone),
+                  std::move(format),
+                  std::move(onNull),
+                  std::move(onError)}),
+      _dateString(_children[0]),
+      _timeZone(_children[1]),
+      _format(_children[2]),
+      _onNull(_children[3]),
+      _onError(_children[4]) {}

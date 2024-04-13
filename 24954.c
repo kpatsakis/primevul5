@@ -1,0 +1,1 @@
+  uint length() const { return m_length; }

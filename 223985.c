@@ -1,0 +1,1 @@
+static int ebb_event_check(struct perf_event *event) { return 0; }

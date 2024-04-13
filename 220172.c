@@ -1,0 +1,1 @@
+int sh_mathstd(const char *name) { return sh_mathstdfun(name, strlen(name), NULL) != 0; }

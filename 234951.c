@@ -1,0 +1,1 @@
+  Item_basic_value(THD *thd): Item(thd) {}

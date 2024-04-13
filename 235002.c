@@ -1,0 +1,1 @@
+  virtual ~Field_enumerator() {};             /* purecov: inspected */

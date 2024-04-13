@@ -1,0 +1,1 @@
+  virtual Item *clone_item(THD *thd) { return 0; }

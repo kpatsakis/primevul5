@@ -1,0 +1,1 @@
+  Guint getSegNum() { return segNum; }

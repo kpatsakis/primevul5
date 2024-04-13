@@ -1,0 +1,2 @@
+GfxLabColorSpace::~GfxLabColorSpace() {
+}

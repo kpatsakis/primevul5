@@ -1,0 +1,1 @@
+static void ebb_event_add(struct perf_event *event) { }

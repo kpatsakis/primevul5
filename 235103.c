@@ -1,0 +1,1 @@
+  virtual bool register_field_in_read_map(void *arg) { return 0; }

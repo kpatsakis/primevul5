@@ -1,0 +1,1 @@
+  bool is_double() const { return m_type == DYN_COL_DOUBLE; }

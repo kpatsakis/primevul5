@@ -1,0 +1,1 @@
+static inline void trace_create_eval_file(struct dentry *d_tracer) { }

@@ -1,0 +1,1 @@
+static void vgacon_putc(struct vc_data *vc, int c, int ypos, int xpos) { }

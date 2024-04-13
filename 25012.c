@@ -1,0 +1,1 @@
+  bool modify_item() const { return m_modify_item; }

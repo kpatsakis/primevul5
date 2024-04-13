@@ -1,0 +1,1 @@
+  Item_copy_string(THD *thd, Item *item_arg): Item_copy(thd, item_arg) {}

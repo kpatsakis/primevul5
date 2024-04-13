@@ -1,0 +1,4 @@
+PHP_MSHUTDOWN_FUNCTION(enchant)
+{
+	return SUCCESS;
+}

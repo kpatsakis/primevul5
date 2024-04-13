@@ -1,0 +1,100 @@
+map_attribute_to_value_type (CK_ATTRIBUTE_TYPE type)
+{
+	switch (type) {
+	case CKA_TOKEN:
+	case CKA_PRIVATE:
+	case CKA_TRUSTED:
+	case CKA_SENSITIVE:
+	case CKA_ENCRYPT:
+	case CKA_DECRYPT:
+	case CKA_WRAP:
+	case CKA_UNWRAP:
+	case CKA_SIGN:
+	case CKA_SIGN_RECOVER:
+	case CKA_VERIFY:
+	case CKA_VERIFY_RECOVER:
+	case CKA_DERIVE:
+	case CKA_EXTRACTABLE:
+	case CKA_LOCAL:
+	case CKA_NEVER_EXTRACTABLE:
+	case CKA_ALWAYS_SENSITIVE:
+	case CKA_MODIFIABLE:
+	case CKA_COPYABLE:
+	case CKA_SECONDARY_AUTH: /* Deprecated */
+	case CKA_ALWAYS_AUTHENTICATE:
+	case CKA_WRAP_WITH_TRUSTED:
+	case CKA_RESET_ON_INIT:
+	case CKA_HAS_RESET:
+	case CKA_COLOR:
+		return P11_RPC_VALUE_BYTE;
+	case CKA_CLASS:
+	case CKA_CERTIFICATE_TYPE:
+	case CKA_CERTIFICATE_CATEGORY:
+	case CKA_JAVA_MIDP_SECURITY_DOMAIN:
+	case CKA_KEY_TYPE:
+	case CKA_MODULUS_BITS:
+	case CKA_PRIME_BITS:
+	case CKA_SUB_PRIME_BITS:
+	case CKA_VALUE_BITS:
+	case CKA_VALUE_LEN:
+	case CKA_KEY_GEN_MECHANISM:
+	case CKA_AUTH_PIN_FLAGS: /* Deprecated */
+	case CKA_HW_FEATURE_TYPE:
+	case CKA_PIXEL_X:
+	case CKA_PIXEL_Y:
+	case CKA_RESOLUTION:
+	case CKA_CHAR_ROWS:
+	case CKA_CHAR_COLUMNS:
+	case CKA_BITS_PER_PIXEL:
+	case CKA_MECHANISM_TYPE:
+		return P11_RPC_VALUE_ULONG;
+	case CKA_WRAP_TEMPLATE:
+	case CKA_UNWRAP_TEMPLATE:
+		return P11_RPC_VALUE_ATTRIBUTE_ARRAY;
+	case CKA_ALLOWED_MECHANISMS:
+		return P11_RPC_VALUE_MECHANISM_TYPE_ARRAY;
+	case CKA_START_DATE:
+	case CKA_END_DATE:
+		return P11_RPC_VALUE_DATE;
+	default:
+		p11_debug ("cannot determine the type of attribute value for %lu; assuming byte array",
+			   type);
+		/* fallthrough */
+	case CKA_LABEL:
+	case CKA_APPLICATION:
+	case CKA_VALUE:
+	case CKA_OBJECT_ID:
+	case CKA_ISSUER:
+	case CKA_SERIAL_NUMBER:
+	case CKA_AC_ISSUER:
+	case CKA_OWNER:
+	case CKA_ATTR_TYPES:
+	case CKA_URL:
+	case CKA_HASH_OF_SUBJECT_PUBLIC_KEY:
+	case CKA_HASH_OF_ISSUER_PUBLIC_KEY:
+	case CKA_CHECK_VALUE:
+	case CKA_SUBJECT:
+	case CKA_ID:
+	case CKA_MODULUS:
+	case CKA_PUBLIC_EXPONENT:
+	case CKA_PRIVATE_EXPONENT:
+	case CKA_PRIME_1:
+	case CKA_PRIME_2:
+	case CKA_EXPONENT_1:
+	case CKA_EXPONENT_2:
+	case CKA_COEFFICIENT:
+	case CKA_PRIME:
+	case CKA_SUBPRIME:
+	case CKA_BASE:
+	case CKA_EC_PARAMS:
+		/* same as CKA_ECDSA_PARAMS */
+	case CKA_EC_POINT:
+	case CKA_CHAR_SETS:
+	case CKA_ENCODING_METHODS:
+	case CKA_MIME_TYPES:
+	case CKA_REQUIRED_CMS_ATTRIBUTES:
+	case CKA_DEFAULT_CMS_ATTRIBUTES:
+	case CKA_SUPPORTED_CMS_ATTRIBUTES:
+		return P11_RPC_VALUE_BYTE_ARRAY;
+	}
+}

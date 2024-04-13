@@ -1,0 +1,1 @@
+    bool chunked() const { return has(Http::HdrType::TRANSFER_ENCODING); }

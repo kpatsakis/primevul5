@@ -1,0 +1,1 @@
+  virtual const char *full_name() const { return name.str ? name.str : "???"; }

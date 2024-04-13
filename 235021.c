@@ -1,0 +1,1 @@
+  virtual bool rename_fields_processor(void *arg) { return 0; }

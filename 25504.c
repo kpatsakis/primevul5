@@ -1,0 +1,1 @@
+  virtual void session_save_default(THD *thd, set_var *var) {}

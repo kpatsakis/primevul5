@@ -1,0 +1,1 @@
+  Item_hex_string(THD *thd): Item_hex_constant(thd) {}

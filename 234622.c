@@ -1,0 +1,1 @@
+  COND_CMP(Item *a,Item_bool_func2 *b) :and_level(a),cmp_func(b) {}

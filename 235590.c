@@ -1,0 +1,3 @@
+XMLProperty::~XMLProperty()
+{
+}

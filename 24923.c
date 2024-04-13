@@ -1,0 +1,1 @@
+  double val_real() { return has_value() ? Date(this).to_double() : 0; }

@@ -1,0 +1,3 @@
+GfxShadingBitBuf::~GfxShadingBitBuf() {
+  str->close();
+}

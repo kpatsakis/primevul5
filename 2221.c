@@ -1,0 +1,1 @@
+  std::size_t operator()(const Handle& h) const { return h.Handle(); }

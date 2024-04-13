@@ -1,0 +1,1 @@
+  virtual bool eval_not_null_tables(void *arg) { return 0; }

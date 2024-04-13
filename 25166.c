@@ -1,0 +1,1 @@
+  longlong val_int() { return decimal_value.to_longlong(unsigned_flag); }

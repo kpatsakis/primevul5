@@ -1,0 +1,1 @@
+  Item* element_index(uint i) { return arg_count ? args[i] : this; }

@@ -1,0 +1,1 @@
+  virtual bool is_fixed() const { return true; }

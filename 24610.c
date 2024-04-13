@@ -1,0 +1,1 @@
+  const Item_const *get_item_const() const { return this; }

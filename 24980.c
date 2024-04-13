@@ -1,0 +1,1 @@
+  Item* get_copy(THD *thd) { return 0; }

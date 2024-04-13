@@ -1,0 +1,1 @@
+  TYPELIB *get_typelib() const { return enum_set_typelib; }

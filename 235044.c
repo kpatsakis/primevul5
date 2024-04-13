@@ -1,0 +1,1 @@
+  virtual Item_result cast_to_int_type() const { return cmp_type(); }

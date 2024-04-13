@@ -1,0 +1,1 @@
+  virtual bool set_fields_as_dependent_processor(void *arg) { return 0; }

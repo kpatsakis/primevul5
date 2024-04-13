@@ -1,0 +1,1 @@
+rsRetVal qqueueQueryInterface(void) { return RS_RET_NOT_IMPLEMENTED; }

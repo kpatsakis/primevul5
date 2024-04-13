@@ -1,0 +1,1 @@
+  virtual void global_save_default(THD *thd, set_var *var) {}

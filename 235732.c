@@ -1,0 +1,1 @@
+static Jsi_FieldSpec *jsi_csGetFieldSpec(void* p) { Jsi_FieldSpec *s = (typeof(s))p; SIGASSERT(s, OPTS_FIELD); return s; }

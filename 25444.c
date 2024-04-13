@@ -1,0 +1,1 @@
+  virtual Item *get_item() { return example; }

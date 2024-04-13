@@ -1,0 +1,1 @@
+bool st_select_lex_node::inc_in_sum_expr()           { return 1; }

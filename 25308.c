@@ -1,0 +1,1 @@
+  bool with_sum_func() const { return m_with_sum_func; }

@@ -1,0 +1,1 @@
+  Cached_item_real(Item *item_par) :Cached_item_item(item_par),value(0.0) {}

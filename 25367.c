@@ -1,0 +1,1 @@
+  void set_field(Field *field) { m_field= field; }

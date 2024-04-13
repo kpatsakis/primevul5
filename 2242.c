@@ -1,0 +1,1 @@
+  static ShapeHandle Unknown() { return ShapeHandle(); }

@@ -1,0 +1,1 @@
+  virtual Item_param *get_item_param() { return 0; }

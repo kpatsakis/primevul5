@@ -1,0 +1,1 @@
+  longlong val_int() { return value; }

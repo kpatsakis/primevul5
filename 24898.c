@@ -1,0 +1,1 @@
+  Item_cache_decimal(THD *thd): Item_cache(thd, &type_handler_newdecimal) {}

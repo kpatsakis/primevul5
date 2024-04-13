@@ -1,0 +1,1 @@
+  bool is_temporal() const { return m_type == DYN_COL_DATETIME; }

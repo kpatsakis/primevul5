@@ -1,0 +1,1 @@
+  virtual bool is_simplified_cond_processor(void *arg) { return false; }

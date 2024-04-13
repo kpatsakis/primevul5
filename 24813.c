@@ -1,0 +1,1 @@
+  Item_basic_constant(THD *thd): Item_basic_value(thd) {};

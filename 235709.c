@@ -1,0 +1,1 @@
+Jsi_CDataDb *Jsi_CDataLookup(Jsi_Interp *interp, const char *name) { return NULL; }

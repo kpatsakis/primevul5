@@ -1,0 +1,1 @@
+  std::size_t size() const { return queue_.size(); }

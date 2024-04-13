@@ -1,0 +1,1 @@
+  Item_num(THD *thd): Item_literal(thd) { collation.set_numeric(); }

@@ -1,0 +1,1 @@
+  virtual bool is_order_clause_position() const { return false; }

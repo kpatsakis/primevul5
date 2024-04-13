@@ -1,0 +1,1 @@
+  int getWidth() { return w; }

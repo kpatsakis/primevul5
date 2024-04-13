@@ -1,0 +1,1 @@
+  bool group() const { return m_group; }

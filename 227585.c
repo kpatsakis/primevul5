@@ -1,0 +1,6 @@
+CryptRsaInit(
+	     void
+	     )
+{
+    return TRUE;
+}

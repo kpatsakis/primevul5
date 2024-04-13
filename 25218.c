@@ -1,0 +1,1 @@
+  longlong val_int_min() const { return value; }

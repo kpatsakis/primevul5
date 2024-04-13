@@ -1,0 +1,1 @@
+  virtual bool check_inner_refs_processor(void *arg) { return 0; }

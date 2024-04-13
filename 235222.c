@@ -1,0 +1,1 @@
+  virtual ~Item_iterator() {}

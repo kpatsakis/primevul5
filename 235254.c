@@ -1,0 +1,1 @@
+  bool is_bool_type() { return true; }

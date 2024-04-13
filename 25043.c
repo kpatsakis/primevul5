@@ -1,0 +1,1 @@
+  void set_with_sum_func() { m_with_sum_func= true; }

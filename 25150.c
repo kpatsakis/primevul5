@@ -1,0 +1,1 @@
+  longlong val_int() { return cached_time.to_longlong(); }

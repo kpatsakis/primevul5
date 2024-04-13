@@ -1,0 +1,1 @@
+  Item *next() { return (list++); }

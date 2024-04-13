@@ -1,0 +1,1 @@
+    uint repertoire() const { return MY_STRING_METADATA::repertoire; }

@@ -1,0 +1,1 @@
+  virtual void set_item_equal(Item_equal *item_eq) {};

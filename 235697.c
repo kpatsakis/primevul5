@@ -1,0 +1,1 @@
+Jsi_RC Jsi_CDataRegister(Jsi_Interp *interp, Jsi_CData_Static *statics) { return JSI_ERROR; }

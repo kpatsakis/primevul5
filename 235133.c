@@ -1,0 +1,1 @@
+  virtual bool dynamic_result() { return 0; }

@@ -1,0 +1,1 @@
+Sfdouble_t sh_arith(Shell_t *shp, const char *str) { return sh_strnum(shp, str, NULL, 1); }

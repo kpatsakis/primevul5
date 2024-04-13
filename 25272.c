@@ -1,0 +1,1 @@
+  bool make_copy_field() const { return m_make_copy_field; }

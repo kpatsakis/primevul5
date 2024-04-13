@@ -1,0 +1,1 @@
+  Item *build_clone(THD *thd) { return 0; }

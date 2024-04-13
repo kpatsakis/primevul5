@@ -1,0 +1,3 @@
+    ~TopicTree() {
+        delete root;
+    }

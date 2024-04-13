@@ -1,0 +1,1 @@
+static inline int gsi_irq_sharing(int gsi) { return gsi; }

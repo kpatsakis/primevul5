@@ -1,0 +1,1 @@
+int    my_aio_error (const struct aiocb *aiocbp){return(aio_error (aiocbp));}

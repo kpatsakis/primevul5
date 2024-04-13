@@ -1,0 +1,1 @@
+  Cached_item_item(Item *arg) : item(arg) {}

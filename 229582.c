@@ -1,0 +1,1 @@
+    explicit SimpleAppendable(UnicodeString &dest) : str(dest) {}

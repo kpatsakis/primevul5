@@ -1,0 +1,1 @@
+  virtual bool find_selective_predicates_list_processor(void *arg) { return 0; }

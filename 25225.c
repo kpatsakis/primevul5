@@ -1,0 +1,1 @@
+  const double *const_ptr_double() const { return &value; }

@@ -1,0 +1,1 @@
+  virtual enum Type real_type() const { return type(); }

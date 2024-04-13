@@ -1,0 +1,4 @@
+ZipFile::~ZipFile()
+{
+    entries.clear();
+}

@@ -1,0 +1,1 @@
+  virtual const MYSQL_TIME *const_ptr_mysql_time() const { return NULL; }

@@ -1,0 +1,1 @@
+  Item_bool(THD *thd, bool i) :Item_int(thd, (longlong) i, 1) { }

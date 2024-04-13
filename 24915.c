@@ -1,0 +1,1 @@
+  bool sane() const { return !null_value || m_value.is_zero_datetime(); }

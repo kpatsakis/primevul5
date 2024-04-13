@@ -1,0 +1,1 @@
+static inline int input_proc_init(void) { return 0; }

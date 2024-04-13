@@ -1,0 +1,1 @@
+  explicit MapStageOp(OpKernelConstruction* ctx) : OpKernel(ctx) {}

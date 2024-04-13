@@ -1,0 +1,1 @@
+  virtual bool need_parentheses_in_default() { return false; }

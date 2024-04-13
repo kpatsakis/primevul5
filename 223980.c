@@ -1,0 +1,1 @@
+static void power_pmu_sched_task(struct perf_event_context *ctx, bool sched_in) {}

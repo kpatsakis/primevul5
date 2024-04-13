@@ -1,0 +1,1 @@
+  virtual bool switch_to_nullable_fields_processor(void *arg) { return 0; }

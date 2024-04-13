@@ -1,0 +1,1 @@
+size_t my_aio_return(      struct aiocb *aiocbp){return(aio_return(aiocbp));}

@@ -1,0 +1,1 @@
+  virtual bool is_bool_literal() const { return false; }

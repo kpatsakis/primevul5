@@ -1,0 +1,1 @@
+List<Item>* st_select_lex_node::get_item_list()      { return 0; }

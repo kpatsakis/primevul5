@@ -1,0 +1,1 @@
+    ~Guard() { list->remove(*conn); }

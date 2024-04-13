@@ -1,0 +1,1 @@
+  virtual void save_result(Field *to) { save_val(to); }

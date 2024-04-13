@@ -1,0 +1,2 @@
+  JArithmeticDecoderStats *getGenericRegionStats()
+    { return genericRegionStats; }

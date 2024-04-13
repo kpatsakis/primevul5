@@ -1,0 +1,1 @@
+TABLE_LIST* st_select_lex_node::get_table_list()     { return 0; }

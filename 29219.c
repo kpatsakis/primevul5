@@ -1,0 +1,1 @@
+  Guchar *getDataPtr() { return data; }

@@ -1,0 +1,4 @@
+  ValueBuffer()
+  {
+    reset_buffer();
+  }

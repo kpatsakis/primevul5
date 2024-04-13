@@ -1,0 +1,1 @@
+  double val_real() { return ulonglong2double((ulonglong)value); }

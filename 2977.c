@@ -1,0 +1,1 @@
+void TfLiteIntArrayFree(TfLiteIntArray* a) { free(a); }

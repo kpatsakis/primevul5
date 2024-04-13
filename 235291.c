@@ -1,0 +1,1 @@
+  virtual bool check_table_name_processor(void *arg) { return false; }

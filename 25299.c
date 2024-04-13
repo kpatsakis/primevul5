@@ -1,0 +1,1 @@
+  bool is_string() const { return m_type == DYN_COL_STRING; }

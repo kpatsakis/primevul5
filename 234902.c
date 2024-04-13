@@ -1,0 +1,1 @@
+  virtual uint get_join_tab_idx() { return join_tab_idx; }

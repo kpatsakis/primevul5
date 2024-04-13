@@ -1,0 +1,2 @@
+GfxPattern::~GfxPattern() {
+}

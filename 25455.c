@@ -1,0 +1,1 @@
+  const Type_handler *type_handler() const { return (*ref)->type_handler(); }

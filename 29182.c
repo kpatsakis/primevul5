@@ -1,0 +1,2 @@
+GfxDeviceRGBColorSpace::~GfxDeviceRGBColorSpace() {
+}

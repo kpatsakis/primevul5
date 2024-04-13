@@ -1,0 +1,1 @@
+  Item_splocal *get_item_splocal() { return this; }

@@ -1,0 +1,1 @@
+  bool const_is_null() const { return state == NULL_VALUE; }

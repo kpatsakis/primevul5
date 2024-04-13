@@ -1,0 +1,1 @@
+  Item_num(THD *thd): Item_basic_constant(thd) { collation.set_numeric(); }

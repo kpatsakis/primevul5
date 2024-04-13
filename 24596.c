@@ -1,0 +1,1 @@
+  virtual const String *const_ptr_string() const { return NULL; }

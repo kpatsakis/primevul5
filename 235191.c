@@ -1,0 +1,1 @@
+  virtual enum precedence precedence() const { return DEFAULT_PRECEDENCE; }

@@ -1,0 +1,1 @@
+  void reset_with_sum_func() { m_with_sum_func= false; }

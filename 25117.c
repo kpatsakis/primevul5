@@ -1,0 +1,1 @@
+  void set_maybe_null(bool maybe_null_arg) { maybe_null= maybe_null_arg; }

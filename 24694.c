@@ -1,0 +1,1 @@
+  virtual uint cols() const { return 1; }

@@ -1,0 +1,1 @@
+  virtual bool is_json_type() { return false; }

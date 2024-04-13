@@ -1,0 +1,1 @@
+void __init __weak efi_arch_mem_reserve(phys_addr_t addr, u64 size) {}

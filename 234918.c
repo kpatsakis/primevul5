@@ -1,0 +1,1 @@
+  table_map used_tables() const { return used_tables_cache; }

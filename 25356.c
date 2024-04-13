@@ -1,0 +1,1 @@
+  virtual const double *const_ptr_double() const { return NULL; }

@@ -1,0 +1,1 @@
+  void make_field(THD *thd, Send_field *field) { item->make_field(thd, field); }

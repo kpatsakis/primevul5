@@ -1,0 +1,1 @@
+  void push(const NodeDef* n) { queue_.emplace(n, topo_order_.at(n)); }

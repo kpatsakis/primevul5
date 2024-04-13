@@ -1,0 +1,1 @@
+  void ExtractValue(ShapeHandle h, ShapeHandle* result) { *result = h; }

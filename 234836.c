@@ -1,0 +1,1 @@
+    size_t char_length() const { return MY_STRING_METADATA::char_length; }

@@ -1,0 +1,1 @@
+static void pmao_restore_workaround(bool ebb) { }

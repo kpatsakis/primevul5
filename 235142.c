@@ -1,0 +1,1 @@
+  virtual bool excl_dep_on_table(table_map tab_map) { return false; }

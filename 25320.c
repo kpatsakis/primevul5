@@ -1,0 +1,1 @@
+  bool is_decimal() const { return m_type == DYN_COL_DECIMAL; }

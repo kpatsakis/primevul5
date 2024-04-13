@@ -1,0 +1,1 @@
+  CephContext* ctx() const { return env.store->ctx(); }

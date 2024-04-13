@@ -1,0 +1,1 @@
+static inline void input_wakeup_procfs_readers(void) { }

@@ -1,0 +1,1 @@
+  virtual ~MDL_deadlock_handler() {}

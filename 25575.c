@@ -1,0 +1,1 @@
+  sys_var_pluginvar *cast_pluginvar() { return this; }

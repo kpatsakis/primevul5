@@ -1,0 +1,1 @@
+  uint pos() const { return m_pos; }

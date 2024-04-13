@@ -1,0 +1,1 @@
+  String *val_str(String *to) { return decimal_value.to_string(to); }

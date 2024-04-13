@@ -1,0 +1,1 @@
+  virtual String *val_raw(String*) { return 0; }

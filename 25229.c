@@ -1,0 +1,1 @@
+  String *val_str(String *to) { return cached_time.to_string(to, decimals); }

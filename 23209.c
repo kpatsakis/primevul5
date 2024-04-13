@@ -1,0 +1,1 @@
+static inline int efivar_ssdt_load(void) { return 0; }

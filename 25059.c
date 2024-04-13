@@ -1,0 +1,1 @@
+  virtual bool is_outer_field() const { DBUG_ASSERT(is_fixed()); return FALSE; }

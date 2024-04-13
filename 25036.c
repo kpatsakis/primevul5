@@ -1,0 +1,1 @@
+  virtual Item_func *get_item_func() { return NULL; }

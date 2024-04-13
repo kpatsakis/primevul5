@@ -1,0 +1,1 @@
+    virtual void Flush() { calledFlush = TRUE; }

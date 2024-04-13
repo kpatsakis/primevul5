@@ -1,0 +1,1 @@
+  Item_param *get_item_param() { return this; }

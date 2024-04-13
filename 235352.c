@@ -1,0 +1,1 @@
+  bool check_vcol_func_processor(void *int_arg) {return FALSE;}
